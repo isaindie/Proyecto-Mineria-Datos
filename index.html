@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <!--CSS-->
+
+    <!--BOOSTRAP-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--FORMULARIO-->
+    <br />
+    <br />
+    <br />
+    <!--Registro -->
+    <div class="container">
+      <div class="col-md-4">
+        <label for="name" class="form-label">Nombre</label>
+        <input id="IP_Nombre" type="text" class="form-control" />
+        <!-- id="name" -->
+      </div>
+      <br />
+      <div class="col-2">
+        <label class="form-label">Edad</label>
+        <input
+          id="IP_Edad"
+          type="number"
+          class="form-control"
+          placeholder="Example: 18"
+          min="18"
+          max="99"
+          value=""
+        />
+      </div>
+      <br />
+      <div class="col-md-4">
+        <label for="IP_Carrera" class="form-label">carrera</label>
+        <select id="IP_Carrera" class="form-select">
+          <option value="LISC" selected>Ing Sistemas Computacionales</option>
+          <option value="LIEC" selected>
+            Ing Electronica y comunicaciones
+          </option>
+          <option value="LGE" selected>Lic en Gestion Empresarial</option>
+          <option value="LEI" selected>Lic en Enseñanza en el Ingles</option>
+        </select>
+      </div>
+      <br />
+      <br />
+      <div class="col-2">
+        <label class="form-label">Semestre</label>
+        <input
+          id="IP_Semestre"
+          type="number"
+          class="form-control"
+          min="1"
+          max="15"
+          value=""
+        />
+      </div>
+      <br />
+      <div class="col-2">
+        <label class="form-label">NUA</label>
+        <input
+          id="IP_NUA"
+          type="number"
+          class="form-control"
+          min="100000"
+          max="999999"
+          value=""
+        />
+      </div>
+      <div class="col-12">
+        <br />
+        <a href="/prototipo.html">
+          <button onclick="postPrototipoAPI()" class="btn btn-dark">
+            Enviar
+          </button>
+        </a>
+      </div>
+    </div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+  </body>
+</html>
