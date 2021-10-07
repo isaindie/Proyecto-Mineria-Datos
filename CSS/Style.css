@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Sora', sans-serif;
+}
+
+.fondo{
+    background-image: url(../images/Navyblue-fondo.jpg);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.formulario{
+padding-top: 10px;
+}
+.container{
+width: 300px;
+padding: 20px;
+padding-top: 25px;
+background-color: #333c46c7;
+border-radius: 4x;
+color: white;
+box-shadow: 7px 13px 30px #000;
+}
